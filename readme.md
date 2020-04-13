@@ -26,6 +26,7 @@ In this demo, the ADCC peripheral is used to read a value from an analog pin con
 The PIC18F47Q10 Curiosity Nano Development Board is used as test platform, along with the Curiosity Nano Base for Click boards™ and the POT Click board™.
 
 The following configurations must be made for this project:
+
 | Pin           | Configuration      |
 | :----------: | :----------------: |
 | RA0           | Analog Input       |
