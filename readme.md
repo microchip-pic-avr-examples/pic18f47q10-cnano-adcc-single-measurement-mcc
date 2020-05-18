@@ -8,6 +8,7 @@ In this demo, the ADCC peripheral is used to read a value from an analog pin con
 
 ## Related Documentation 
 
+- [Getting started with the ADCC tech brief](https://www.microchip.com/DS90003263)
 - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family)
 
 ## Software Used
@@ -37,4 +38,4 @@ The following configurations must be made for this project:
 Run the code with a debugger, stop it and check the value of the variable to see the result. 
 
 ## Summary
-This project showcases how the Analog-to-Digital Converter with Computation (ADCC) on the new PIC18-Q43 can be used to read an analog value from a pin.
+This project showcases how the Analog-to-Digital Converter with Computation (ADCC) on the new PIC18-Q10 can be used to read an analog value from a pin.
