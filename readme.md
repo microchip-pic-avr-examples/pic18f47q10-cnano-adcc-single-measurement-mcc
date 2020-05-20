@@ -56,7 +56,7 @@ The following configurations must be made for this project:
 <br><img src="images/pause.PNG" width="600">
 
 
-7. Add *adcVal* variable do the *Variables window*: right click on the `adcVal` variable in main.c file and click *New Watch*:
+7. Add *adcVal* variable to the *Variables window*: right click on the `adcVal` variable in main.c file and click *New Watch*:
 <br><img src="images/watch.PNG" width="600">
 
 
