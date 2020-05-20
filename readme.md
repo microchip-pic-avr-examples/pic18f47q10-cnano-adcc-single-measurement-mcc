@@ -35,7 +35,33 @@ The following configurations must be made for this project:
 <img src="images/HWsetup.png" alt="Hardware Setup" width="480"/>
 
 ## Operation:
-Run the code with a debugger, stop it and check the value of the variable to see the result. 
+1. Connect the board to the PC.
+
+2. Open the *pic18f47q10-cnano-adcc-single-measurement-mcc.X* project in MPLAB® X IDE.
+
+3. Set *pic18f47q10-cnano-adcc-single-measurement-mcc* project as main project. Right click on the project in the *Projects* tab and click *Set as Main Project*:
+<br><img src="images/main.PNG" width="600">
+
+4. Select the *PIC18F47Q10 Curiosity Nano* in the *Hardware Tool* section of the project settings:
+  - Right click on the project and click *Properties*;
+  - Select the *PIC18F47Q10 Curiosity Nano* (click on the SN) in the *Hardware Tool* tab and then click *OK*:
+<br><img src="images/prop.PNG" width="600">
+
+
+5. Run the code in debug mode: right click on the project and click *Debug*:
+<br><img src="images/debug.PNG" width="600">
+
+
+6. Pause the debug process by clicking the *Pause* button (or click *Debug -> Pause* in the Menu bar):
+<br><img src="images/pause.PNG" width="600">
+
+
+7. Add *adcVal* variable do the *Variables window*: right click on the `adcVal` variable in main.c file and click *New Watch*:
+<br><img src="images/watch.PNG" width="600">
+
+
+The ADC value on RA0 pin will be read only once, before the program gets to the infinite loop. The value of `adcVal` will reflect the potentiometer position.
+<br><img src="images/var.PNG" width="600">
 
 ## Summary
 This project showcases how the Analog-to-Digital Converter with Computation (ADCC) on the new PIC18-Q10 can be used to read an analog value from a pin.
