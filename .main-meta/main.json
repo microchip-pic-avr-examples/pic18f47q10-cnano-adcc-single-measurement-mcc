@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-adcc-single-measurement-mcc",
+        "version": "1.0.3",
+        "displayName": "PIC18F47Q10 ADCC Single Conversion Configuration Example",
+        "projectName": "pic18f47q10-cnano-adcc-single-measurement-mcc",
+        "shortDescription": "In this demo, the ADCC peripheral is used to read a value from an analog pin connected to a potentiometer.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.30.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.10.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.3.89"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,24 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F47Q10",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
+            "Peripherals",
             [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
+               "Peripherals"
+            ]      			
         ],
         "peripherals": [
-            "",""
+            "ADCC"
         ],
         "keywords": [
-            "",
-            ""			
+            "Single",
+            "Measurement",
+            "Conversion"		
         ],
 		"additionalData": {
 			"longDescription": {
