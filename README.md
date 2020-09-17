@@ -8,7 +8,7 @@ In this demo, the ADCC peripheral is used to read a value from an analog pin con
 
 ## Related Documentation 
 
-- [Getting started with the ADCC tech brief](https://www.microchip.com/DS90003263)
+- [TB3263 - Getting Started with ADCC for PIC18](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1002103)
 - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family)
 
 ## Software Used
